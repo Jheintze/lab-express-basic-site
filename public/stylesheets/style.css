@@ -1,0 +1,46 @@
+body {
+    background-color: yellow;
+}
+
+.welcomePic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+    text-align:center;
+    font-weight:bolder;
+}
+
+.container {
+    display: flex;
+    gap: 0.625%;
+  }
+
+  a {
+    flex: left;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    font-size:larger;
+  }
+
+  a:hover {
+    background: blue;
+  }
+
+  a:link,
+a:visited,
+a:focus {
+  background: red;
+}
+iframe{
+    display:block;
+    margin:auto;
+    width:500px;
+    height:500px;
+}
